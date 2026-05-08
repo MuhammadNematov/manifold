@@ -1,6 +1,6 @@
 *{
     margin: 0;
-
+        overflow-x: hidden; /* добавь это */
 }
 body{
     font-family: sans-serif;
@@ -93,12 +93,15 @@ body{
 .e3{
     line-height: 2.5;
 }
-.r1{
+
+.r1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    overflow: hidden; /* добавь */
 }
+
 .r2{
     width: 80%;
 }
@@ -118,7 +121,6 @@ body{
 .r5{
     margin-top: 30px;
     display: flex;
-    
     gap: 50px;
     
 }
@@ -132,7 +134,6 @@ body{
     height: 690px;
     margin-top: 50px;
     border: solid 1px gray;
-
 }
 .e12{
     background-color: #212121;
@@ -241,18 +242,13 @@ body{
 .subscribe{
     width: 85%;
     margin: 40px auto;
-
     background: #1d1d1f;
     color: white;
-
     border-radius: 15px;
-
     display: flex;
     justify-content: space-between;
     gap: 50px;
-
     padding: 50px;
-
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
@@ -264,7 +260,7 @@ body{
     font-size: 75px;
     font-weight: 900;
     line-height: 1.1;
-}
+} 
 
 .sub-left span{
     color: #ff3131;
@@ -330,6 +326,7 @@ body{
     font-size: 13px;
 }
 
+
         .footer {
             background: #1a1a1a;
             display: flex;
@@ -338,6 +335,7 @@ body{
             padding: 20px 40px;
             font-family: sans-serif;
             height: 100px;
+            width: 100%;
         }
 
         .footer-logo {
